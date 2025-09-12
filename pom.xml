@@ -39,6 +39,13 @@
             <version>9.22.3</version>  <!-- match flyway-core version if you pinned it; otherwise omit version to follow BOM -->
         </dependency>
 
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+
 
 
 
